@@ -5,8 +5,8 @@ export const OneWork = (props) => {
   const { name, subtitle, description, githubLink, websiteLink, imgSrc } = props.data;
   console.log(props)
   return (
-    <div className="card" style={{ width: "28rem", margin: '8px' }} >
-      <img src={imgSrc} className="card-img-top" alt="..."></img>
+    <div className="card" style={{ width: "32rem", margin: '8px' }} >
+      <img src={imgSrc} className="card-img-top" alt="..." ></img>
       <div className="card-body">
         <h5 className="card-title">{name}</h5>
         <h6 className="card-subtitle mb-2 text-muted">{subtitle}</h6>

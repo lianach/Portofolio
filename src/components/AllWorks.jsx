@@ -43,8 +43,16 @@ class AllWorks extends Component {
 
         <div className='imgwrapper'>
           &nbsp;
-        </div>
+          {/* <div align='center' className='box'>
+            <h1 align='center' style={{ marginBottom: '25px', textAlign: 'center', whiteSpace: 'pre-wrap', fontFamily: 'proxima-nova' }}>Liana's</h1>
+            <h1 align='center' style={{ marginBottom: '25px', textAlign: 'center', whiteSpace: 'pre-wrap', fontFamily: 'proxima-nova' }}>Portofolio</h1>
+          </div> */}
 
+        </div>
+        {/*
+        <div className='subWrapper'>
+          <h1 align='center' style={{ marginBottom: '25px', textAlign: 'center', whiteSpace: 'pre-wrap', fontFamily: 'proxima-nova' }}>These are some of my projects</h1>
+        </div> */}
         <div className='mainWrapper'>
           <div>
             <h1 align='center' style={{ marginBottom: '25px', textAlign: 'center', whiteSpace: 'pre-wrap', fontFamily: 'proxima-nova' }}>These are some of my projects</h1>
