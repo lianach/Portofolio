@@ -1,13 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+ .navcontent{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+nav{
+  position: relative;
+
+}
+.navbar-brand {
+ margin:10
+}
+
+ul li a, navbar-brand{
+  color:black;
+  margin: 10;
+}
+.home{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: black;
+  font-weight: 300;
+   }
+  .main{
+    position: fixed;
+  width: 500px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  margin-top: -150px; /* Negative half of height. */
+  margin-left: -250px;
+  }
+  .home button{
+    opacity: 0.9;
+    background-color: #6610f2;
+    padding: 6px;
+    border-radius: 8px;
+
+  }
+  .home h3{
+    padding: 5px;
+    font-weight: 300;
+    }
+
+.imgwrapper{
+  width: 100%;
+  height: 70rem;
+  margin: 0;
+  padding: 0;
+  background-image: url('project2.jpg');
+  /* background: linear-gradient(
+                     rgba(20,20,20, .5),
+                     rgba(20,20,20, .5)),
+                     url('project2.jpg'); */
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+}
+
+.mainWrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  padding:  20vh 6vw;
+  align-content: center;
+  background-color: #f7f3f3;
+}
+.imgwrapper1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap:  nowrap;
+  align-content: center;
+}
+
+/* .indexPage{
+  background-color: ;
+} */
+@media screen and (max-width: 1550px) {
+  .imgwrapper {
+    height: 60rem;
+  }
+
+}
+@media screen and (max-width: 1330px) {
+  .imgwrapper {
+    height: 50rem;
+  }
+
+}
+@media screen and (max-width: 1024px) {
+  .imgwrapper {
+    height:40rem;
+    width:auto;
+  }
+  .imgwrapper1{
+    flex-wrap:  wrap;
+  }
+}
+@media screen and (max-width: 500px) {
+  .imgwrapper {
+    height: 23rem;
+width: 400px;
+  }
+  .imgwrapper1{
+    flex-wrap:  wrap;
+  }
+
 }
