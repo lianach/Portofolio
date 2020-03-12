@@ -3968,7 +3968,7 @@ exports = ___CSS_LOADER_API_IMPORT___(false);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-exports.push([module.i, "body {\n\n  font-family: 'Roboto', sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n .navcontent{\n  display: flex;\n  justify-content: space-between;\n  align-content: center;\n\n}\nnav{\n  position: relative;\n\n}\n.navbar-brand {\n margin:10\n}\n\nul li a, navbar-brand{\n  color:whitesmoke;\n  margin: 10;\n}\n.home{\n  display: flex;\n  justify-content: center;\n  align-content: center;\n  color: black;\n  font-weight: 300;\n   }\n  .main{\n    position: fixed;\n  width: 500px;\n  height: 200px;\n  top: 50%;\n  left: 50%;\n  margin-top: -150px; /* Negative half of height. */\n  margin-left: -250px;\n  }\n  .home button{\n    opacity: 0.9;\n    background-color: #6610f2;\n    padding: 6px;\n    border-radius: 8px;\n\n  }\n  .home h3{\n    padding: 5px;\n    font-weight: 300;\n    }\n    body, html {\n      height: 100%;\n      margin: 0;\n    }\n    .box{\n      float: center;\n      opacity: 0.9;\n      background-color: #6610f2;\n      padding: 6px;\n      border-radius: 8px;\n      width: 50%;\n    }\n.imgwrapper{\n  width: 100%;\n  height: 70rem;\n  margin: 0;\n  padding: 0;\n  top: 0;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background: linear-gradient(\n                     rgba(20,20,20, .5),\n                     rgba(20,20,20, .5)),\n                     url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size:100% 100%;\n  background-attachment: fixed ;\n  background-position: cover;\n  background-repeat: no-repeat;\n  background-size: cover;\n\n}\n\n.mainWrapper{\n  display: flex;\n  flex-direction: column;\n  justify-content: space-evenly;\n  flex-wrap: nowrap;\n  padding:  20vh 6vw;\n  align-content: center;\n  background-color:#f2f3e8;\n}\n.subWrapper{\n  display: flex;\n  flex-direction: column;\n  justify-content: space-evenly;\n  flex-wrap: nowrap;\n  padding:  20vh 6vw;\n  align-content: center;\n  background-color:#d0ebf0;\n}\n.imgwrapper1{\n  display: flex;\n  flex-direction: row;\n  justify-content: space-evenly;\n  flex-wrap:  nowrap;\n  align-content: center;\n}\n\n/* .indexPage{\n  background-color: ;\n} */\n@media screen and (max-width: 1550px) {\n  .imgwrapper {\n    height: 60rem;\n  }\n\n}\n@media screen and (max-width: 1330px) {\n  .imgwrapper {\n    height: 50rem;\n  }\n\n}\n@media screen and (max-width: 1024px) {\n  .imgwrapper {\n    height:40rem;\n    width:auto;\n    background-attachment: scroll ;\n  }\n  .imgwrapper1{\n    flex-wrap:  wrap;\n  }\n}\n@media screen and (max-width: 700px) {\n  .imgwrapper {\n    height: 33rem;\n\n  }\n\n}\n@media screen and (max-width: 500px) {\n  .imgwrapper {\n    height: 23rem;\nwidth: 400px;\n  }\n\n}\n@media screen and (max-width: 380px) {\n  .imgwrapper {\n    height: 18rem;\n\n  }\n\n}\n.navbar-trans {\n  background: transparent; }\n  a.nav-link {\n    color: black; }\n", ""]);
+exports.push([module.i, "body {\n\n  font-family: 'Roboto', sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n .navcontent{\n  display: flex;\n  justify-content: space-between;\n  align-content: center;\n\n}\n\n.navbar-brand {\n margin:10\n}\n\nul li a, navbar-brand{\n  color:whitesmoke;\n  margin: 10;\n}\n.home{\n  display: flex;\n  justify-content: center;\n  align-content: center;\n  color: black;\n  font-weight: 300;\n   }\n  .main{\n    position: fixed;\n  width: 500px;\n  height: 200px;\n  top: 50%;\n  left: 50%;\n  margin-top: -150px; /* Negative half of height. */\n  margin-left: -250px;\n  }\n  .home button{\n    opacity: 0.9;\n    background-color: #6610f2;\n    padding: 6px;\n    border-radius: 8px;\n\n  }\n  .home h3{\n    padding: 5px;\n    font-weight: 300;\n    }\n\n    .box{\n      float: center;\n      opacity: 0.9;\n      background-color: #6610f2;\n      padding: 6px;\n      border-radius: 8px;\n      width: 50%;\n    }\n.imgwrapper{\n\n  width: 100%;\n  height: 70rem;\n  margin: 0;\n  padding: 0;\n  top: 0;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background: linear-gradient(\n                     rgba(12, 12, 12, 0.5),\n                     rgba(7, 7, 7, 0.5)),\n                     url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size:100% 100%;\n  background-attachment: fixed ;\n  background-position: cover;\n  background-repeat: no-repeat;\n  background-size: cover;\n\n}\n\n.mainWrapper{\n  display: flex;\n  flex-direction: column;\n  justify-content: space-evenly;\n  flex-wrap: nowrap;\n  padding:  20vh 6vw;\n  align-content: center;\n  background-color:#fcfcfc;\n}\n.subWrapper{\n  display: flex;\n  flex-direction: column;\n  justify-content: space-evenly;\n  flex-wrap: nowrap;\n  padding:  20vh 6vw;\n  align-content: center;\n  background-color:#d0ebf0;\n}\n.imgwrapper1{\n  display: flex;\n  flex-direction: row;\n  justify-content: space-evenly;\n  flex-wrap:  nowrap;\n  align-content: center;\n}\n\n/* .indexPage{\n  background-color: ;\n} */\n.text {\n  color: whitesmoke;\n  font-family: 'proxima-nova';\n  font-size: 40px;\n  font-weight: 400;\n  position: absolute;\n  top:40%;\n  left: 40%;\n  z-index: 2;\n  transform: translate(-40% -40%);\n}\n\n@media screen and (max-width: 1550px) {\n  .imgwrapper {\n    height: 60rem;\n  }\n\n}\n@media screen and (max-width: 1330px) {\n  .imgwrapper {\n    height: 50rem;\n  }\n\n}\n@media screen and (max-width: 1024px) {\n  .imgwrapper {\n    height:40rem;\n    width:auto;\n\n  }\n  .imgwrapper1{\n    flex-wrap:  wrap;\n  }\n  .text{\n    left: 35%;\n  }\n}\n@media screen and (max-width: 700px) {\n  .imgwrapper {\n    height: 33rem;\n\n  }\n  .text{\n    left: 28%;\n  }\n}\n@media screen and (max-width: 500px) {\n  .imgwrapper {\n    height: 23rem;\nwidth: 400px;\n  }\n  .text{\n    left: 15%;\n  }\n\n}\n@media screen and (max-width: 380px) {\n  .imgwrapper {\n    height: 18rem;\n\n  }\n\n}\n.navbar-trans {\n  background: transparent;\n  position: fixed;\n  right:0;\n  left:0; }\n\n  a.nav-link {\n    color: black; }\n    #animation1 {\n      margin-top: 25px;\n      font-size: 21px;\n      text-align: center;\n\n      -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */\n         -moz-animation: fadein 2s; /* Firefox < 16 */\n          -ms-animation: fadein 2s; /* Internet Explorer */\n           -o-animation: fadein 2s; /* Opera < 12.1 */\n              animation: fadein 2s;\n  }\n  @keyframes fadein {\n    from { opacity: 0; }\n    to   { opacity: 1; }\n}\n\n/* Firefox < 16 */\n@-moz-keyframes fadein {\n    from { opacity: 0; }\n    to   { opacity: 1; }\n}\n\n/* Safari, Chrome and Opera > 12.1 */\n@-webkit-keyframes fadein {\n    from { opacity: 0; }\n    to   { opacity: 1; }\n}\n\n/* Internet Explorer */\n@-ms-keyframes fadein {\n    from { opacity: 0; }\n    to   { opacity: 1; }\n}\n\n/* Opera < 12.1 */\n@-o-keyframes fadein {\n    from { opacity: 0; }\n    to   { opacity: 1; }\n}\n.revealOnScroll { opacity: 0; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -39724,6 +39724,8 @@ class AllWorks extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   componentDidMount() {
     var body = document.getElementsByTagName('body')[0];
     body.style.backgroundImage = 'none';
+    var navLinks = document.getElementsByClassName('a.nav-link');
+    console.log(navLinks);
   }
 
   render() {
@@ -39732,11 +39734,30 @@ class AllWorks extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         display: 'flex',
         flexDirection: 'column'
       }
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "imgwrapper",
+      "data-aos": "fade-in",
+      "data-aos-delay": "50",
+      "data-aos-duration": "700",
+      "data-aos-once": "false"
+    }, "\xA0", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "text"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+      align: "center",
+      style: {
+        marginBottom: '25px',
+        textAlign: 'center',
+        whiteSpace: 'pre-wrap',
+        fontFamily: 'proxima-nova'
+      }
+    }, "Liana's Portofolio"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "mainWrapper",
+      id: "animation1"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "imgwrapper"
-    }, "\xA0"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "mainWrapper"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+      "data-aos": "slide-down",
+      "data-aos-delay": "200",
+      "data-aos-duration": "2000"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
       align: "center",
       style: {
         marginBottom: '25px',
@@ -39749,7 +39770,8 @@ class AllWorks extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }, hardcodedData.map((elemnet, index) => {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_oneWork__WEBPACK_IMPORTED_MODULE_1__["OneWork"], {
         key: index,
-        data: elemnet
+        data: elemnet,
+        index: index
       });
     }))));
   }
@@ -39825,7 +39847,7 @@ __webpack_require__.r(__webpack_exports__);
 class NavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
-      className: "navbar navbar-toggleable-sm navbar-trans navbar-inverse"
+      className: "navbar navbar-toggleable-sm navbar-trans navbar-inverse "
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
       className: "navbar-brand",
       style: {
@@ -39908,11 +39930,18 @@ const OneWork = props => {
     websiteLink,
     imgSrc
   } = props.data;
+  const index = props.index;
+  const duration = String((index + 1) * 1000);
+  const delay = String((index + 1) * 100);
+  console.log(duration, delay);
   console.log(props);
   return React__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "card",
+    "data-aos": "slide-up",
+    "data-aos-delay": delay,
+    "data-aos-duration": duration,
     style: {
-      width: "32rem",
+      width: "22rem",
       margin: '8px'
     }
   }, React__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -39927,7 +39956,7 @@ const OneWork = props => {
     className: "card-subtitle mb-2 text-muted"
   }, subtitle), React__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "card-text"
-  }, description), React__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, description.slice(0, 50) + '...'), React__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: githubLink,
     className: "card-link"
   }, "Github Link"), React__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {

@@ -35,32 +35,45 @@ class AllWorks extends Component {
   componentDidMount() {
     var body = document.getElementsByTagName('body')[0];
     body.style.backgroundImage = 'none'
+    var navLinks = document.getElementsByClassName('a.nav-link');
+    console.log(navLinks)
   }
   render() {
 
     return (
-      <div style={{ display: 'flex', flexDirection: 'column' }}>
+      <div style={{ display: 'flex', flexDirection: 'column' }} >
+        <div></div>
+        <div className='imgwrapper' data-aos="fade-in"
+          data-aos-delay="50"
+          data-aos-duration="700"
 
-        <div className='imgwrapper'>
+          data-aos-once="false"
+        >
           &nbsp;
-          {/* <div align='center' className='box'>
-            <h1 align='center' style={{ marginBottom: '25px', textAlign: 'center', whiteSpace: 'pre-wrap', fontFamily: 'proxima-nova' }}>Liana's</h1>
-            <h1 align='center' style={{ marginBottom: '25px', textAlign: 'center', whiteSpace: 'pre-wrap', fontFamily: 'proxima-nova' }}>Portofolio</h1>
-          </div> */}
+
+          <div className='text'>
+            <h1 align='center' style={{ marginBottom: '25px', textAlign: 'center', whiteSpace: 'pre-wrap', fontFamily: 'proxima-nova' }}
+
+
+            >Liana's Portofolio</h1>
+
+          </div>
 
         </div>
         {/*
         <div className='subWrapper'>
           <h1 align='center' style={{ marginBottom: '25px', textAlign: 'center', whiteSpace: 'pre-wrap', fontFamily: 'proxima-nova' }}>These are some of my projects</h1>
         </div> */}
-        <div className='mainWrapper'>
-          <div>
+        <div className='mainWrapper' id='animation1'>
+          <div data-aos="slide-down"
+            data-aos-delay="200"
+            data-aos-duration="2000">
             <h1 align='center' style={{ marginBottom: '25px', textAlign: 'center', whiteSpace: 'pre-wrap', fontFamily: 'proxima-nova' }}>These are some of my projects</h1>
           </div>
           <div className='imgwrapper1'>
             {
               hardcodedData.map((elemnet, index) => {
-                return <OneWork key={index} data={elemnet} />
+                return <OneWork key={index} data={elemnet} index={index} />
               })
             }
           </div>

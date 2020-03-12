@@ -5,7 +5,7 @@ class NavBar extends React.Component {
 
   render() {
     return (
-      <nav className="navbar navbar-toggleable-sm navbar-trans navbar-inverse">
+      <nav className="navbar navbar-toggleable-sm navbar-trans navbar-inverse ">
         <a className="navbar-brand" style={{ color: "black", marginLeft: 5 }} rel="home" href="/" >
           Liana Chan
         </a>

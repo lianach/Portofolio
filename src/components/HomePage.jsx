@@ -13,7 +13,7 @@ export default class HomePage extends React.Component {
         <div align="center">
           <div className='main'>
             <h3>LIANA'S PORTOFOLIO</h3>
-            <button > <Link to="/projects" className="nav-link" style={{ textDecoration: 'none', color: 'white', fontWeight: '700' }} >
+            <button> <Link to="/projects" className="nav-link" style={{ textDecoration: 'none', color: 'white', fontWeight: '700' }} >
               Check my work out
             </Link></button>
           </div>
