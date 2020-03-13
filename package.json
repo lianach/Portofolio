@@ -24,19 +24,13 @@
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.8",
     "redux-logger": "^3.0.6",
-    "redux-thunk": "^2.3.0",
-    "webpack": "^4.42.0",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3"
+    "redux-thunk": "^2.3.0"
   },
   "scripts": {
     "build-client": "webpack",
     "build-client-watch": "webpack -w",
     "serve": "node server",
     "start": "NODE_ENV='development' npm run build-client-watch & NODE_ENV='development' npm run start-server",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "start-server": "nodemon server -e html,js,scss --ignore public --ignore src"
   },
   "eslintConfig": {
