@@ -5,7 +5,7 @@ const hardcodedData = {
   MushroomMarket: {
     name: 'Mushroom Market',
     link: 'MushroomMarket',
-    subtitle: 'An e-commerce website were you will find any groceries you will ever need! ',
+    subtitle: 'An e-commerce website where you will find any groceries you will ever need! ',
     description: `Mushroom market is an e-commerce website that sells groceries and bundles in the form of editable recipes.
     Mushroom market was created by a team of 4 people including myself during my time at the Grace Hopper Program in a span of 1 week and a half.
     On this website, you can buy groceries and recipes either with you own account or as a guest and you can customize your recipe bundle the way you want to. After choosing what products, you go to your cart and then checkout, the same way you would do on an e-commerce website.`,
