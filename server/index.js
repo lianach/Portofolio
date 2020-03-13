@@ -4,7 +4,7 @@ const path = require('path')
 const app = express()
 const compression = require('compression')
 module.exports = app
-const PORT = 8100;
+const PORT = process.env.PORT || 8080
 
 const createApp = () => {
 
