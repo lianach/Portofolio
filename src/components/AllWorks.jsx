@@ -64,7 +64,7 @@ class AllWorks extends Component {
 
           <div className='text'>
               <h1 align='center' style={{ marginBottom: '25px', textAlign: 'center', whiteSpace: 'pre-wrap', fontFamily: 'proxima-nova' }}
-              >Liana's<br /> Portofolio.</h1>
+              >Liana's<br /> Portfolio.</h1>
 
             </div>
 

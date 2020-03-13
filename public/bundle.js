@@ -50020,7 +50020,7 @@ class AllWorks extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         whiteSpace: 'pre-wrap',
         fontFamily: 'proxima-nova'
       }
-    }, "Liana's", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " Portofolio."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    }, "Liana's", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " Portfolio."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "mainWrapper",
       id: "animation1"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -50175,7 +50175,7 @@ class HomePage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       align: "center"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "main"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "LIANA'S PORTOFOLIO"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", null, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "LIANA'S PORTFOLIO"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", null, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
       to: "/projects",
       className: "nav-link",
       style: {
