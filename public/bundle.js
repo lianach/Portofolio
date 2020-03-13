@@ -3969,7 +3969,7 @@ exports.push([module.i, "@import url(https://fonts.googleapis.com/css2?family=Ro
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Bellota|Raleway&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-exports.push([module.i, "body {\n\n  font-family: 'Roboto', sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n .navcontent{\n  display: flex;\n  justify-content: space-between;\n  align-content: center;\n\n}\n\n.navbar-brand {\n margin:10;\n\n}\n\n\n.home{\n  display: flex;\n  justify-content: center;\n  align-content: center;\n  color: black;\n  font-weight: 300;\n   }\n  .main{\n    position: fixed;\n  width: 500px;\n  height: 200px;\n  top: 50%;\n  left: 50%;\n  margin-top: -150px; /* Negative half of height. */\n  margin-left: -250px;\n  }\n  .home button{\n    opacity: 0.9;\n    background-color: #6610f2;\n    padding: 6px;\n    border-radius: 8px;\n\n  }\n  .home h3{\n    padding: 5px;\n    font-weight: 300;\n    }\n\n    .box{\n      float: center;\n      opacity: 0.9;\n      background-color: #6610f2;\n      padding: 6px;\n      border-radius: 8px;\n      width: 50%;\n    }\n.imgwrapper{\n\n  width: 100%;\n  height: 70rem;\n  margin: 0;\n  padding: 0;\n  top: 0;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background: linear-gradient(\n                     rgba(12, 12, 12, 0.5),\n                     rgba(7, 7, 7, 0.5)),\n                     url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size:100% 100%;\n  background-attachment: fixed ;\n  background-position: cover;\n  background-repeat: no-repeat;\n  background-size: cover;\n\n}\n\n.mainWrapper{\n  display: flex;\n  flex-direction: column;\n  justify-content: space-evenly;\n  flex-wrap: nowrap;\n  padding:  20vh 6vw;\n  align-content: center;\n  background-color:#fcfcfc;\n}\n.subWrapper{\n  display: flex;\n  flex-direction: column;\n  justify-content: space-evenly;\n  flex-wrap: nowrap;\n  padding:  20vh 6vw;\n  align-content: center;\n  background-color:#d0ebf0;\n}\n.imgwrapper1{\n  display: flex;\n  flex-direction: row;\n  justify-content: space-evenly;\n  flex-wrap:  nowrap;\n  align-content: center;\n}\n\n/* .indexPage{\n  background-color: ;\n} */\n.text {\n  color: whitesmoke;\n  font-family: 'proxima-nova';\n  font-size: 40px;\n  font-weight: 400;\n  position: absolute;\n  z-index: 2;\n  transform: translate(-40% -40%);\n  padding: 20vh 6vw;\n  top:13%;\n  left:5%;\n\n}\n.text h1{\n  font-size: 120px;\n  font-weight: 600;\n}\n\n\n\n.navbar-trans {\n  background: transparent;\n  position: absolute;\n  right:0;\n  left:0; }\n\n  a.nav-link {\n    color: black;\n\n  }\n    .aboutWrapper{\n      padding:  15vh 15vw;\n  align-content: center;\n\n    }\n.about{\n  display: flex;\n  flex-wrap: nowrap;\n}\n.about div{\n  margin: 20px;\n}\n.img-fluid{\n\nwidth: 200rem;\ntop:80%;\n}\n.about .card{\nborder:none;\n\n}\n\n.about .card .card-body{\n  padding: 0;\n  white-space: pre-wrap;\n  font-family: 'Raleway', sans-serif;\n}\n\n\n@media screen and (max-width: 1550px) {\n  .imgwrapper {\n    height: 60rem;\n  }\n  .text h1{\n    font-size: 110px;\n  }\n\n}\n\n.site-footer\n{\n  background-color:#26272b;\n  padding:45px 0 20px;\n  font-size:15px;\n  line-height:24px;\n  color:#bebaba;\n}\n.site-footer a{\n  font-size: 20px;\n}\n@media screen and (max-width: 1330px) {\n  .imgwrapper {\n    height: 50rem;\n  }\n  .text{\n    top:10%;\n  }\n  .text h1{\n    font-size: 100px;\n  }\n}\n@media screen and (max-width: 1024px) {\n  .imgwrapper {\n    height:40rem;\n    width:auto;\n\n  }\n  .imgwrapper1{\n    flex-wrap:  wrap;\n  }\n  .text{\n    top:5%;\n  }\n  .text h1{\n    font-size: 85px;\n  }\n  .about{\n    flex-wrap: wrap;\n  }\n}\n\n@media screen and (max-width: 700px) {\n  .imgwrapper {\n    height: 33rem;\n\n  }\n  .text{\n    top:1%;\n  }\n}\n@media screen and (max-width: 500px) {\n  .imgwrapper {\n    height: 23rem;\nwidth: 400px;\n  }\n  .text{\n    top:-7%;\n  }\n  .text h1{\n    font-size: 50px;\n  }\n}\n@media screen and (max-width: 380px) {\n  .imgwrapper {\n    height: 18rem;\n\n  }\n\n}\n", ""]);
+exports.push([module.i, "body {\n\n  font-family: 'Roboto', sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n .navcontent{\n  display: flex;\n  justify-content: space-between;\n  align-content: center;\n\n}\n\n.navbar-brand {\n margin:10;\n\n}\n\n\n.home{\n  display: flex;\n  justify-content: center;\n  align-content: center;\n  color: black;\n  font-weight: 300;\n   }\n  .main{\n    position: fixed;\n  width: 500px;\n  height: 200px;\n  top: 50%;\n  left: 50%;\n  margin-top: -150px; /* Negative half of height. */\n  margin-left: -250px;\n  }\n  .home button{\n    opacity: 0.9;\n    background-color: #6610f2;\n    padding: 6px;\n    border-radius: 8px;\n\n  }\n  .home h3{\n    padding: 5px;\n    font-weight: 300;\n    }\n\n    .box{\n      float: center;\n      opacity: 0.9;\n      background-color: #6610f2;\n      padding: 6px;\n      border-radius: 8px;\n      width: 50%;\n    }\n.imgwrapper{\n\n  width: 100%;\n  height: 70rem;\n  margin: 0;\n  padding: 0;\n  top: 0;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background: linear-gradient(\n                     rgba(12, 12, 12, 0.5),\n                     rgba(7, 7, 7, 0.5)),\n                     url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size:100% 100%;\n  background-attachment: fixed ;\n  background-position: cover;\n  background-repeat: no-repeat;\n  background-size: cover;\n\n}\n\n.mainWrapper{\n  display: flex;\n  flex-direction: column;\n  justify-content: space-evenly;\n  flex-wrap: nowrap;\n  padding:  13vh 6vw;\n  align-content: center;\n  background-color:#fcfcfc;\n}\n\n.imgwrapper1{\n  display: flex;\n  flex-direction: row;\n  justify-content: space-evenly;\n  flex-wrap:  nowrap;\n  align-content: center;\n}\n\n/* .indexPage{\n  background-color: ;\n} */\n.text {\n  color: whitesmoke;\n  font-family: 'proxima-nova';\n  font-size: 40px;\n  font-weight: 400;\n  position: absolute;\n  z-index: 2;\n  transform: translate(-40% -40%);\n  padding: 20vh 6vw;\n  top:13%;\n  left:5%;\n\n}\n.text h1{\n  font-size: 120px;\n  font-weight: 600;\n}\n\n\n\n.navbar-trans {\n  background: transparent;\n  position: absolute;\n  right:0;\n  left:0; }\n\n  a.nav-link {\n    color: black;\n\n  }\n    .aboutWrapper{\n      padding:  15vh 15vw;\n  align-content: center;\n\n    }\n.about{\n  display: flex;\n  flex-wrap: nowrap;\n}\n.about div{\n  margin: 20px;\n}\n.img-fluid{\n\nwidth: 200rem;\ntop:80%;\n}\n.about .card{\nborder:none;\n\n}\n\n.about .card .card-body{\n  padding: 0;\n  white-space: pre-wrap;\n  font-family: 'Raleway', sans-serif;\n}\n.mainWrapper h1{\n  font-family: 'Raleway', sans-serif;\n  margin-bottom: 50px;\n}\n\n\n\n@media screen and (max-width: 1550px) {\n  .imgwrapper {\n    height: 60rem;\n  }\n  .text h1{\n    font-size: 110px;\n  }\n\n}\n.singleWorkWrapper{\n  display: flex;\n  flex-direction: column;\n  justify-content: space-evenly;\n  flex-wrap: nowrap;\n  padding:  15vh 6vw;\n  align-content: center;\n  background-color:#fcfcfc;\n}\n.site-footer\n{\n  background-color:#26272b;\n  padding:45px 0 20px;\n  font-size:15px;\n  line-height:24px;\n  color:#bebaba;\n}\n.site-footer a{\n  font-size: 20px;\n}\n@media screen and (max-width: 1330px) {\n  .imgwrapper {\n    height: 50rem;\n  }\n  .text{\n    top:10%;\n  }\n  .text h1{\n    font-size: 100px;\n  }\n}\n@media screen and (max-width: 1024px) {\n  .imgwrapper {\n    height:40rem;\n    width:auto;\n\n  }\n  .imgwrapper1{\n    flex-wrap:  wrap;\n  }\n  .text{\n    top:5%;\n  }\n  .text h1{\n    font-size: 85px;\n  }\n  .about{\n    flex-wrap: wrap;\n  }\n}\n\n@media screen and (max-width: 700px) {\n  .imgwrapper {\n    height: 33rem;\n\n  }\n  .text{\n    top:1%;\n  }\n}\n@media screen and (max-width: 500px) {\n  .imgwrapper {\n    height: 23rem;\nwidth: 400px;\n  }\n  .text{\n    top:-7%;\n  }\n  .text h1{\n    font-size: 50px;\n  }\n}\n@media screen and (max-width: 380px) {\n  .imgwrapper {\n    height: 18rem;\n\n  }\n\n}\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -39755,7 +39755,7 @@ class About extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       style: {
         color: 'rgb(170, 170, 170)'
       }
-    }, "About"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I have always been passionate about technology ever since an early age. Always opening computers up and putting them back, playing games and trying to mod games. I didnt know what I wanted to become when i grew p for a long time up until my first coding class in my freshman year of high school. It was an eye opening experince that made me decide what kind of path I want to follow. I feel in love with coding and solving problems so much that I moved in Advanced Mathmatics and Computer Scince class the next year and stayed there up until the end of high school."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Over the course of my high school I trained a lot in problem solving and I got accepted in one of the most prestigious Computer Scince program in Romania at the Faculty of Computer Science of Iasi, which is part of the Alexandru Ion Cuza University of Iasi.During my time there, I volunteer for multiple associations the most notable being ASII(in Romanian `Asociatia Studentiilor Informaticieni Ieseni`) association, which is the Computer Science students association of Iasi. I got to be involved in multiple projects as Media Public Relations Coordinator that would promote making learning code more accesible for other students."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "After 2 years of attenting college in Romania I moved to the US and decided instead of continuing my education in an University enviorement I opted for attenting the Grace Hopper Program at the Fullstack Academy in New York."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "My experience at Fullstack Academy was one of a kind, a deligtful and eye opening experinece where I was able to grow so much and learn so many skills in an amazing and supporting enviorement. I got to create amazing projects with wonderful people that I am proud of using the skills I learned during my time at the Academy."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Now, after finishing the program I am on my way on becoming a Fullstack developer while working at the same time on some of my passion projects."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    }, "About"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I have always been passionate about technology since an early age. Always opening computers up and putting them back, playing games and trying to mod games. I didn't know what I wanted to become when I grew up for a long time up until my first coding class in my freshman year of high school. It was an eye opening experience that made me decide what kind of path I want to follow. I fell in love with coding and solving problems so much that I moved in Advanced Mathematics and Computer Science class the next year and stayed there up until the end of high school."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Over the course of my high school, I trained a lot in problem solving and I got accepted in one of the most prestigious Computer Science program in Romania at the Faculty of Computer Science of Iasi, which is part of the Alexandru Ion Cuza University of Iasi. During my time there, I volunteer for multiple associations the most notable being ASII(in Romanian `Asociatia Studentiilor Informaticieni Ieseni`) association, which is the Computer Science students association of Iasi. I got to be involved in multiple projects as Media Public Relations Coordinator that would promote making learning code more accessible for other students."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "After 2 years of attending college in Romania, I relocated to the US and decided instead of continuing my education in an University environment I opted for attending the Grace Hopper Program at the Fullstack Academy in New York."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "My experience at Fullstack Academy was one of a kind, a delightful and eye opening experience where I was able to grow so much and learn so many skills in an amazing and supporting environment. I got to create amazing projects with wonderful people that I am proud of using the skills I learned during my time at the Academy."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Now, after finishing the program I am on my way on becoming a Fullstack developer while working at the same time on some of my passion projects."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
       className: "card-title",
       style: {
         color: 'rgb(170, 170, 170)'
@@ -39792,27 +39792,30 @@ __webpack_require__.r(__webpack_exports__);
 
 const hardcodedData = [{
   name: 'Mushroom Market',
+  link: 'MushroomMarket',
   subtitle: 'E-COMMERCE WEBSITE',
   description: `Mushroom market is an e-commerce website that sells groceries and bundles in the form of editable recipes.
     Created using Node, PostgreSQL and Express for back-end and React and  Redux for the front-end, written in JavaScript.`,
   websiteLink: `https://graceshopper2020mushroom.herokuapp.com/home`,
-  githubLink: `https://github.com/1911-GH-mushrooms/GraceShopper`,
-  imgSrc: 'https://media-exp1.licdn.com/media-proxy/ext?w=1024&h=640&f=n&hash=KZZHyEFnsIalymgif3UimPtFyXs%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6jnhodx1Ey9KGTqAGj6E5DQJHUA3L0CHH05IbfPWjvfZHfKOb1pEATK38IjQAzeL21EmbpFY66eYu7eIp135-zLML5agYUbhl4lWdI'
+  githubLink: `https://graceshopper2020mushroom.herokuapp.com/home`,
+  imgSrc: 'muhroom.jpg'
 }, {
-  name: 'Studdy Buddy',
+  name: 'Study Buddy',
+  link: 'StudyBuddy',
   subtitle: 'REACT NATIVE MEETUP APP',
-  description: `Study Buddy is a meetup app that connects students through groups.Created using Firebase services, Node and Express for back-end and React Native and Redux for the front-end, written in JavaScript.`,
+  description: `Study Buddy is a meetup app that connects students through groups created by them for practicing coding.Created using Firebase services, Node and Express for back-end and React Native and Redux for the front-end, written in JavaScript.`,
   websiteLink: `https://github.com/Stackathon-Studdy-Buddy/Study-Buddy`,
-  githubLink: `https://github.com/Stackathon-Studdy-Buddy/Study-Buddy`,
+  githubLink: `https://github.com/1911-GH-mushrooms/GraceShopper`,
   imgSrc: 'https://user-images.githubusercontent.com/55503788/74886012-ff0ac980-5344-11ea-814e-9e4b23e6ff54.png'
 }, {
   name: 'Harmonious',
+  link: 'Harmonious',
   subtitle: 'PROGRESSIVE WEB APP',
   description: `Harmonious is a progressive web app that streamlines the booking process between an artist and a booker.
     Created using PostgreSQL, Express and Firebase services in JavaScript for back-end and React, Ionic framework and Redux in Typescript for the front-end.`,
   websiteLink: `https://harmonious-capstone.herokuapp.com/home`,
   githubLink: `https://github.com/campstone-lead/Capstone`,
-  imgSrc: 'projects.jpg'
+  imgSrc: 'Harmonious.jpg'
 }];
 
 class AllWorks extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
@@ -39821,7 +39824,6 @@ class AllWorks extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     body.style.backgroundImage = 'none';
     var navLinks = document.getElementsByClassName('nav-link');
     const logo = document.getElementsByClassName('navbar-brand')[0];
-    console.log(navLinks);
     navLinks[0].style.color = 'white';
     navLinks[1].style.color = 'white';
     navLinks[1].style.fontWeight = '700';
@@ -39841,7 +39843,9 @@ class AllWorks extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       "data-aos": "fade-in",
       "data-aos-delay": "50",
       "data-aos-duration": "700",
-      "data-aos-once": "false"
+      "data-aos-mirror": "true",
+      "data-aos-once": "false",
+      "data-aos-anchor-placement": "top-center"
     }, "\xA0", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "text"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
@@ -39861,13 +39865,11 @@ class AllWorks extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       "data-aos-duration": "2000"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
       align: "center",
+      className: "card-title",
       style: {
-        marginBottom: '25px',
-        textAlign: 'center',
-        whiteSpace: 'pre-wrap',
-        fontFamily: 'proxima-nova'
+        color: 'rgb(170, 170, 170)'
       }
-    }, "Here are some of my projects")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    }, " Check out some of my projects")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "imgwrapper1"
     }, hardcodedData.map((elemnet, index) => {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_oneWork__WEBPACK_IMPORTED_MODULE_1__["OneWork"], {
@@ -40075,11 +40077,186 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
 /***/ }),
 
+/***/ "./src/components/SingleWorkPage.jsx":
+/*!*******************************************!*\
+  !*** ./src/components/SingleWorkPage.jsx ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return SingleProjectPage; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _history__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../history */ "./src/history.js");
+/* harmony import */ var _index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index */ "./src/components/index.js");
+
+
+
+const hardcodedData = {
+  MushroomMarket: {
+    name: 'Mushroom Market',
+    link: 'MushroomMarket',
+    subtitle: 'An e-commerce website were you will find any groceries you will ever need! ',
+    description: `Mushroom market is an e-commerce website that sells groceries and bundles in the form of editable recipes.
+    Mushroom market was created by a team of 4 people including myself during my time at the Grace Hopper Program in a span of 1 week and a half.
+    On this website, you can buy groceries and recipes either with you own account or as a guest and you can customize your recipe bundle the way you want to. After choosing what products, you go to your cart and then checkout, the same way you would do on an e-commerce website.`,
+    stack: `Created using Node, PostgreSQL and Express for back-end and React and  Redux for the front-end, written in JavaScript`,
+    websiteLink: `https://graceshopper2020mushroom.herokuapp.com/home`,
+    githubLink: `https://graceshopper2020mushroom.herokuapp.com/home`,
+    imgSrc: 'muhroom.jpg'
+  },
+  StudyBuddy: {
+    name: 'Study Buddy',
+    link: 'StudyBuddy',
+    subtitle: 'The meetup up app you will always reach for as a student!',
+    description: `Study Buddy is an react native app that allows users to post and view study groups in their area. This app uses the Google Maps API to allow users to see all meetups on a map, or they can choose to see a list view of meetings based on their proximity.
+    Study Buddy was built by Liana Chan and Celia Macrae, two software engineering students at Fullstack Academy in span of 3 days in a Stackathon environment. Study Buddy was inspired by all of the technical interview prep work that awaited us upon graduation of the Grace Hopper program. It provides a way for us to stay in contact with our classmates and coordinate meetups to prepare for technical interviews.`,
+    stack: `Created using Firebase services, Node and Express for back-end and React Native and Redux for the front-end, written in JavaScript.`,
+    websiteLink: `https://github.com/Stackathon-Studdy-Buddy/Study-Buddy`,
+    githubLink: `https://github.com/1911-GH-mushrooms/GraceShopper`,
+    imgSrc: 'https://user-images.githubusercontent.com/55503788/74886012-ff0ac980-5344-11ea-814e-9e4b23e6ff54.png'
+  },
+  Harmonious: {
+    name: 'Harmonious',
+    link: 'Harmonious',
+    subtitle: `Are you an artist that is tired of needlessly scouring the web for venues that are close to you and fit your artistic style?
+    Are you a booker looking for an artist who’s the perfect match for your venue?
+    --- Harmonious is the answer! ---`,
+    description: `Harmonious is a progressive web app that streamlines the booking process between an artist and a booker.
+    It was created by a team of 4 people including myself in a span of 3 weeks and a half.
+    We decided to create this app because we understand the frustration for musicians at finding a suitable place to play. Our app also helps venues find suitable artists to play at their events. We have our recommendations for both users (bookers and artists) showing the best match, based on their location and preferable genres. If you are interested in someone particular or a specific place, you can also search for them.`,
+    stack: ` Created using PostgreSQL, Express and Firebase services in JavaScript for back-end and React, Ionic framework and Redux in Typescript for the front-end.`,
+    websiteLink: `https://harmonious-capstone.herokuapp.com/home`,
+    githubLink: `https://github.com/campstone-lead/Capstone`,
+    imgSrc: 'harmonious1.jpg'
+  }
+};
+class SingleProjectPage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  componentDidMount() {
+    var body = document.getElementsByTagName('body')[0];
+    body.style.backgroundImage = 'none';
+  }
+
+  render() {
+    const path = _history__WEBPACK_IMPORTED_MODULE_1__["default"].location.pathname.slice(1);
+    const currentProject = hardcodedData[path];
+    const {
+      name,
+      subtitle,
+      description,
+      githubLink,
+      websiteLink,
+      imgSrc,
+      stack
+    } = currentProject;
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "singleWorkWrapper",
+      "data-aos": "fade-in",
+      "data-aos-delay": "50",
+      "data-aos-duration": "300",
+      "data-aos-mirror": "true",
+      "data-aos-once": "false",
+      "data-aos-anchor-placement": "top-center"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      align: "center",
+      className: "card-title"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, name)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      align: "center",
+      className: "card-subtitle mb-2 text-muted",
+      style: {
+        fontStyle: 'italic'
+      }
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "\"", subtitle, "\"")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      "data-aos": "fade-in",
+      "data-aos-delay": "50",
+      "data-aos-duration": "700",
+      "data-aos-once": "false"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: imgSrc,
+      alt: "...",
+      className: "img-fluid rounded",
+      style: {
+        border: "none"
+      }
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "card",
+      style: {
+        border: 'none',
+        backgroundColor: 'transparent'
+      },
+      "data-aos": "flip-up",
+      "data-aos-delay": "50",
+      "data-aos-duration": "400"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      align: "center",
+      className: "card-body"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      className: "card-title",
+      style: {
+        color: 'rgb(170, 170, 170)',
+        fontWeight: 800
+      }
+    }, "Story"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, description))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "card",
+      style: {
+        border: 'none',
+        backgroundColor: 'transparent'
+      },
+      "data-aos": "flip-up",
+      "data-aos-delay": "50",
+      "data-aos-duration": "500"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      align: "center",
+      className: "card-body"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      className: "card-title",
+      style: {
+        color: 'rgb(170, 170, 170)',
+        fontWeight: 800
+      }
+    }, "Stack"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, stack))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      style: {
+        display: 'flex',
+        placeContent: 'center',
+        backgroundColor: 'none'
+      },
+      "data-aos": "flip-up",
+      "data-aos-delay": "50",
+      "data-aos-duration": "600"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: githubLink
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      style: {
+        color: 'black',
+        margin: '10px',
+        backgroundColor: 'none'
+      }
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+      className: "fab fa-github fa-2x"
+    }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: websiteLink
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      style: {
+        color: 'black',
+        margin: '10px',
+        backgroundColor: 'none'
+      }
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+      className: "fas fa-globe fa-2x"
+    }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_index__WEBPACK_IMPORTED_MODULE_2__["Footer"], null));
+  }
+
+}
+
+/***/ }),
+
 /***/ "./src/components/index.js":
 /*!*********************************!*\
   !*** ./src/components/index.js ***!
   \*********************************/
-/*! exports provided: HomePage, NavBar, AllWorks, About, Footer */
+/*! exports provided: HomePage, NavBar, AllWorks, About, Footer, SingleWorkPage */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -40098,6 +40275,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Footer */ "./src/components/Footer.jsx");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Footer", function() { return _Footer__WEBPACK_IMPORTED_MODULE_4__["default"]; });
+
+/* harmony import */ var _SingleWorkPage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./SingleWorkPage */ "./src/components/SingleWorkPage.jsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SingleWorkPage", function() { return _SingleWorkPage__WEBPACK_IMPORTED_MODULE_5__["default"]; });
+
 
 
 
@@ -40119,6 +40300,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OneWork", function() { return OneWork; });
 /* harmony import */ var React__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! React */ "./node_modules/React/index.js");
 /* harmony import */ var React__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(React__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+
 
 const OneWork = props => {
   const {
@@ -40127,13 +40310,12 @@ const OneWork = props => {
     description,
     githubLink,
     websiteLink,
-    imgSrc
+    imgSrc,
+    link
   } = props.data;
   const index = props.index;
-  const duration = String((index + 1) * 1000);
-  const delay = String((index + 1) * 100);
-  console.log(duration, delay);
-  console.log(props);
+  const duration = String((index + 1) * 500);
+  const delay = String((index + 1) * 50);
   return React__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "card",
     "data-aos": "slide-up",
@@ -40151,11 +40333,13 @@ const OneWork = props => {
     className: "card-body"
   }, React__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
     className: "card-title"
-  }, name), React__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+  }, React__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: '/' + link
+  }, name)), React__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
     className: "card-subtitle mb-2 text-muted"
   }, subtitle), React__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "card-text"
-  }, description.slice(0, 50) + '...'), React__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, description.split('.')[0] + '.'), React__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: githubLink,
     className: "card-link"
   }, "Github Link"), React__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -40304,6 +40488,15 @@ class Routes extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
       path: "/about",
       component: _components__WEBPACK_IMPORTED_MODULE_3__["About"]
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+      path: "/MushroomMarket",
+      component: _components__WEBPACK_IMPORTED_MODULE_3__["SingleWorkPage"]
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+      path: "/StudyBuddy",
+      component: _components__WEBPACK_IMPORTED_MODULE_3__["SingleWorkPage"]
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+      path: "/Harmonious",
+      component: _components__WEBPACK_IMPORTED_MODULE_3__["SingleWorkPage"]
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
       exact: true,
       path: "/",
