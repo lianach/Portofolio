@@ -38,7 +38,7 @@ const createApp = () => {
 }
 
 const startListening = () => {
-  app.listen(PORT, () =>
+  app.listen(process.env.PORT || 8100, () =>
     console.log(`Mixing it up on port ${PORT}!!!`)
   )
 
