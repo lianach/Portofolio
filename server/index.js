@@ -49,5 +49,8 @@ async function bootApp() {
   await createApp()
   await startListening()
 }
-
-bootApp()
+if (require.main === module) {
+  bootApp()
+} else {
+  createApp()
+}
