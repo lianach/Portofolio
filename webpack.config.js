@@ -6,6 +6,10 @@ module.exports = {
     './src/index.js',
     '@babel/polyfill'
   ],
+  output: {
+    path: __dirname,
+    filename: './public/bundle.js'
+  },
   mode: isDev ? 'development' : 'production',
   module: {
     rules: [
@@ -38,10 +42,6 @@ module.exports = {
   },
   resolve: {
     extensions: ['*', '.js', '.jsx']
-  },
-  output: {
-    path: __dirname,
-    publicPath: '/',
-    filename: 'bundle.js'
   }
+
 }
