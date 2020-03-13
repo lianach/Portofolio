@@ -14,13 +14,11 @@ body {
 }
 
 .navbar-brand {
- margin:10
+ margin:10;
+
 }
 
-ul li a, navbar-brand{
-  color:whitesmoke;
-  margin: 10;
-}
+
 .home{
   display: flex;
   justify-content: center;
@@ -133,9 +131,11 @@ ul li a, navbar-brand{
   left:0; }
 
   a.nav-link {
-    color: black; }
+    color: black;
+
+  }
     .aboutWrapper{
-      padding:  20vh 15vw;
+      padding:  15vh 15vw;
   align-content: center;
 
     }
@@ -172,6 +172,18 @@ border:none;
   }
 
 }
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#bebaba;
+}
+.site-footer a{
+  font-size: 20px;
+}
 @media screen and (max-width: 1330px) {
   .imgwrapper {
     height: 50rem;
@@ -202,6 +214,7 @@ border:none;
     flex-wrap: wrap;
   }
 }
+
 @media screen and (max-width: 700px) {
   .imgwrapper {
     height: 33rem;

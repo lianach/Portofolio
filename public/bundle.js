@@ -3969,7 +3969,7 @@ exports.push([module.i, "@import url(https://fonts.googleapis.com/css2?family=Ro
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Bellota|Raleway&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-exports.push([module.i, "body {\n\n  font-family: 'Roboto', sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n .navcontent{\n  display: flex;\n  justify-content: space-between;\n  align-content: center;\n\n}\n\n.navbar-brand {\n margin:10\n}\n\nul li a, navbar-brand{\n  color:whitesmoke;\n  margin: 10;\n}\n.home{\n  display: flex;\n  justify-content: center;\n  align-content: center;\n  color: black;\n  font-weight: 300;\n   }\n  .main{\n    position: fixed;\n  width: 500px;\n  height: 200px;\n  top: 50%;\n  left: 50%;\n  margin-top: -150px; /* Negative half of height. */\n  margin-left: -250px;\n  }\n  .home button{\n    opacity: 0.9;\n    background-color: #6610f2;\n    padding: 6px;\n    border-radius: 8px;\n\n  }\n  .home h3{\n    padding: 5px;\n    font-weight: 300;\n    }\n\n    .box{\n      float: center;\n      opacity: 0.9;\n      background-color: #6610f2;\n      padding: 6px;\n      border-radius: 8px;\n      width: 50%;\n    }\n.imgwrapper{\n\n  width: 100%;\n  height: 70rem;\n  margin: 0;\n  padding: 0;\n  top: 0;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background: linear-gradient(\n                     rgba(12, 12, 12, 0.5),\n                     rgba(7, 7, 7, 0.5)),\n                     url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size:100% 100%;\n  background-attachment: fixed ;\n  background-position: cover;\n  background-repeat: no-repeat;\n  background-size: cover;\n\n}\n\n.mainWrapper{\n  display: flex;\n  flex-direction: column;\n  justify-content: space-evenly;\n  flex-wrap: nowrap;\n  padding:  20vh 6vw;\n  align-content: center;\n  background-color:#fcfcfc;\n}\n.subWrapper{\n  display: flex;\n  flex-direction: column;\n  justify-content: space-evenly;\n  flex-wrap: nowrap;\n  padding:  20vh 6vw;\n  align-content: center;\n  background-color:#d0ebf0;\n}\n.imgwrapper1{\n  display: flex;\n  flex-direction: row;\n  justify-content: space-evenly;\n  flex-wrap:  nowrap;\n  align-content: center;\n}\n\n/* .indexPage{\n  background-color: ;\n} */\n.text {\n  color: whitesmoke;\n  font-family: 'proxima-nova';\n  font-size: 40px;\n  font-weight: 400;\n  position: absolute;\n  z-index: 2;\n  transform: translate(-40% -40%);\n  padding: 20vh 6vw;\n  top:13%;\n  left:5%;\n\n}\n.text h1{\n  font-size: 120px;\n  font-weight: 600;\n}\n\n\n\n.navbar-trans {\n  background: transparent;\n  position: absolute;\n  right:0;\n  left:0; }\n\n  a.nav-link {\n    color: black; }\n    .aboutWrapper{\n      padding:  20vh 15vw;\n  align-content: center;\n\n    }\n.about{\n  display: flex;\n  flex-wrap: nowrap;\n}\n.about div{\n  margin: 20px;\n}\n.img-fluid{\n\nwidth: 200rem;\ntop:80%;\n}\n.about .card{\nborder:none;\n\n}\n\n.about .card .card-body{\n  padding: 0;\n  white-space: pre-wrap;\n  font-family: 'Raleway', sans-serif;\n}\n\n\n@media screen and (max-width: 1550px) {\n  .imgwrapper {\n    height: 60rem;\n  }\n  .text h1{\n    font-size: 110px;\n  }\n\n}\n@media screen and (max-width: 1330px) {\n  .imgwrapper {\n    height: 50rem;\n  }\n  .text{\n    top:10%;\n  }\n  .text h1{\n    font-size: 100px;\n  }\n}\n@media screen and (max-width: 1024px) {\n  .imgwrapper {\n    height:40rem;\n    width:auto;\n\n  }\n  .imgwrapper1{\n    flex-wrap:  wrap;\n  }\n  .text{\n    top:5%;\n  }\n  .text h1{\n    font-size: 85px;\n  }\n  .about{\n    flex-wrap: wrap;\n  }\n}\n@media screen and (max-width: 700px) {\n  .imgwrapper {\n    height: 33rem;\n\n  }\n  .text{\n    top:1%;\n  }\n}\n@media screen and (max-width: 500px) {\n  .imgwrapper {\n    height: 23rem;\nwidth: 400px;\n  }\n  .text{\n    top:-7%;\n  }\n  .text h1{\n    font-size: 50px;\n  }\n}\n@media screen and (max-width: 380px) {\n  .imgwrapper {\n    height: 18rem;\n\n  }\n\n}\n", ""]);
+exports.push([module.i, "body {\n\n  font-family: 'Roboto', sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n .navcontent{\n  display: flex;\n  justify-content: space-between;\n  align-content: center;\n\n}\n\n.navbar-brand {\n margin:10;\n\n}\n\n\n.home{\n  display: flex;\n  justify-content: center;\n  align-content: center;\n  color: black;\n  font-weight: 300;\n   }\n  .main{\n    position: fixed;\n  width: 500px;\n  height: 200px;\n  top: 50%;\n  left: 50%;\n  margin-top: -150px; /* Negative half of height. */\n  margin-left: -250px;\n  }\n  .home button{\n    opacity: 0.9;\n    background-color: #6610f2;\n    padding: 6px;\n    border-radius: 8px;\n\n  }\n  .home h3{\n    padding: 5px;\n    font-weight: 300;\n    }\n\n    .box{\n      float: center;\n      opacity: 0.9;\n      background-color: #6610f2;\n      padding: 6px;\n      border-radius: 8px;\n      width: 50%;\n    }\n.imgwrapper{\n\n  width: 100%;\n  height: 70rem;\n  margin: 0;\n  padding: 0;\n  top: 0;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background: linear-gradient(\n                     rgba(12, 12, 12, 0.5),\n                     rgba(7, 7, 7, 0.5)),\n                     url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size:100% 100%;\n  background-attachment: fixed ;\n  background-position: cover;\n  background-repeat: no-repeat;\n  background-size: cover;\n\n}\n\n.mainWrapper{\n  display: flex;\n  flex-direction: column;\n  justify-content: space-evenly;\n  flex-wrap: nowrap;\n  padding:  20vh 6vw;\n  align-content: center;\n  background-color:#fcfcfc;\n}\n.subWrapper{\n  display: flex;\n  flex-direction: column;\n  justify-content: space-evenly;\n  flex-wrap: nowrap;\n  padding:  20vh 6vw;\n  align-content: center;\n  background-color:#d0ebf0;\n}\n.imgwrapper1{\n  display: flex;\n  flex-direction: row;\n  justify-content: space-evenly;\n  flex-wrap:  nowrap;\n  align-content: center;\n}\n\n/* .indexPage{\n  background-color: ;\n} */\n.text {\n  color: whitesmoke;\n  font-family: 'proxima-nova';\n  font-size: 40px;\n  font-weight: 400;\n  position: absolute;\n  z-index: 2;\n  transform: translate(-40% -40%);\n  padding: 20vh 6vw;\n  top:13%;\n  left:5%;\n\n}\n.text h1{\n  font-size: 120px;\n  font-weight: 600;\n}\n\n\n\n.navbar-trans {\n  background: transparent;\n  position: absolute;\n  right:0;\n  left:0; }\n\n  a.nav-link {\n    color: black;\n\n  }\n    .aboutWrapper{\n      padding:  15vh 15vw;\n  align-content: center;\n\n    }\n.about{\n  display: flex;\n  flex-wrap: nowrap;\n}\n.about div{\n  margin: 20px;\n}\n.img-fluid{\n\nwidth: 200rem;\ntop:80%;\n}\n.about .card{\nborder:none;\n\n}\n\n.about .card .card-body{\n  padding: 0;\n  white-space: pre-wrap;\n  font-family: 'Raleway', sans-serif;\n}\n\n\n@media screen and (max-width: 1550px) {\n  .imgwrapper {\n    height: 60rem;\n  }\n  .text h1{\n    font-size: 110px;\n  }\n\n}\n\n.site-footer\n{\n  background-color:#26272b;\n  padding:45px 0 20px;\n  font-size:15px;\n  line-height:24px;\n  color:#bebaba;\n}\n.site-footer a{\n  font-size: 20px;\n}\n@media screen and (max-width: 1330px) {\n  .imgwrapper {\n    height: 50rem;\n  }\n  .text{\n    top:10%;\n  }\n  .text h1{\n    font-size: 100px;\n  }\n}\n@media screen and (max-width: 1024px) {\n  .imgwrapper {\n    height:40rem;\n    width:auto;\n\n  }\n  .imgwrapper1{\n    flex-wrap:  wrap;\n  }\n  .text{\n    top:5%;\n  }\n  .text h1{\n    font-size: 85px;\n  }\n  .about{\n    flex-wrap: wrap;\n  }\n}\n\n@media screen and (max-width: 700px) {\n  .imgwrapper {\n    height: 33rem;\n\n  }\n  .text{\n    top:1%;\n  }\n}\n@media screen and (max-width: 500px) {\n  .imgwrapper {\n    height: 23rem;\nwidth: 400px;\n  }\n  .text{\n    top:-7%;\n  }\n  .text h1{\n    font-size: 50px;\n  }\n}\n@media screen and (max-width: 380px) {\n  .imgwrapper {\n    height: 18rem;\n\n  }\n\n}\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -39693,6 +39693,8 @@ module.exports = exported;
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index */ "./src/components/index.js");
+
 
 
 class About extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
@@ -39702,7 +39704,7 @@ class About extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   }
 
   render() {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "aboutWrapper"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "about"
@@ -39763,7 +39765,7 @@ class About extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         color: 'rgb(170, 170, 170)',
         fontWeight: 600
       }
-    }, " liana.andreea97@yahoo.com"), " or through my linked profile which is listed below my picture.")))));
+    }, " liana.andreea97@yahoo.com"), " or through my linked profile which is listed below my picture."))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_index__WEBPACK_IMPORTED_MODULE_1__["Footer"], null));
   }
 
 }
@@ -39784,6 +39786,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _oneWork__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./oneWork */ "./src/components/oneWork.jsx");
+/* harmony import */ var _index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index */ "./src/components/index.js");
+
 
 
 const hardcodedData = [{
@@ -39815,12 +39819,19 @@ class AllWorks extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   componentDidMount() {
     var body = document.getElementsByTagName('body')[0];
     body.style.backgroundImage = 'none';
-    var navLinks = document.getElementsByClassName('a.nav-link');
+    var navLinks = document.getElementsByClassName('nav-link');
+    const logo = document.getElementsByClassName('navbar-brand')[0];
     console.log(navLinks);
+    navLinks[0].style.color = 'white';
+    navLinks[1].style.color = 'white';
+    navLinks[1].style.fontWeight = '700';
+    navLinks[0].style.fontWeight = '700';
+    logo.style.color = 'white';
+    logo.style.fontWeight = '700';
   }
 
   render() {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       style: {
         display: 'flex',
         flexDirection: 'column'
@@ -39864,12 +39875,106 @@ class AllWorks extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         data: elemnet,
         index: index
       });
-    }))));
+    })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_index__WEBPACK_IMPORTED_MODULE_2__["Footer"], null));
   }
 
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (AllWorks);
+
+/***/ }),
+
+/***/ "./src/components/Footer.jsx":
+/*!***********************************!*\
+  !*** ./src/components/Footer.jsx ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Footer; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+class Footer extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
+      className: "site-footer"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "container"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      style: {
+        dispaly: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'space-around',
+        alignContent: 'center'
+      }
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+      align: "center",
+      style: {
+        margin: '20px'
+      }
+    }, "Quick Links"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      style: {
+        position: 'relative',
+        display: 'flex',
+        placeContent: 'center'
+      }
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      style: {
+        margin: 10,
+        color: 'white',
+        textDecoration: 'none'
+      },
+      rel: "home",
+      href: "/"
+    }, "Home"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      style: {
+        margin: 10,
+        color: 'white',
+        textDecoration: 'none'
+      },
+      href: "/projects"
+    }, "Work"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      style: {
+        margin: 10,
+        color: 'white',
+        textDecoration: 'none'
+      },
+      href: "/about"
+    }, "About | Contact")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+      align: "center",
+      style: {
+        margin: '20px'
+      }
+    }, "Social Links"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      style: {
+        display: 'flex',
+        placeContent: 'center'
+      }
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "https://www.linkedin.com/in/andreea-liana-c-72273718b/"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      style: {
+        color: 'white',
+        margin: '10px'
+      }
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+      className: "fab fa-linkedin fa-2x"
+    }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "https://github.com/lianach"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      style: {
+        color: 'white',
+        margin: '10px'
+      }
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+      className: "fab fa-github fa-2x"
+    }))))))));
+  }
+
+}
 
 /***/ }),
 
@@ -39955,18 +40060,13 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       className: "nav-item"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
       className: "nav-link",
-      href: "/about"
-    }, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "nav-item"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-      className: "nav-link",
       href: "/projects"
     }, "Work")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
       className: "nav-item"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
       className: "nav-link",
-      href: "/"
-    }, "Contact"))));
+      href: "/about"
+    }, "About | Contact"))));
   }
 
 }
@@ -39979,7 +40079,7 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 /*!*********************************!*\
   !*** ./src/components/index.js ***!
   \*********************************/
-/*! exports provided: HomePage, NavBar, AllWorks, About */
+/*! exports provided: HomePage, NavBar, AllWorks, About, Footer */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -39995,6 +40095,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony import */ var _About__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./About */ "./src/components/About.jsx");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "About", function() { return _About__WEBPACK_IMPORTED_MODULE_3__["default"]; });
+
+/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Footer */ "./src/components/Footer.jsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Footer", function() { return _Footer__WEBPACK_IMPORTED_MODULE_4__["default"]; });
+
 
 
 

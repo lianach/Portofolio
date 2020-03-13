@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { OneWork } from './oneWork'
-
-
+import { Footer } from './index'
 const hardcodedData = [
   {
     name: 'Mushroom Market',
@@ -35,47 +34,57 @@ class AllWorks extends Component {
   componentDidMount() {
     var body = document.getElementsByTagName('body')[0];
     body.style.backgroundImage = 'none'
-    var navLinks = document.getElementsByClassName('a.nav-link');
+    var navLinks = document.getElementsByClassName('nav-link');
+    const logo = document.getElementsByClassName('navbar-brand')[0];
     console.log(navLinks)
+    navLinks[0].style.color = 'white';
+    navLinks[1].style.color = 'white';
+    navLinks[1].style.fontWeight = '700';
+    navLinks[0].style.fontWeight = '700';
+    logo.style.color = 'white';
+    logo.style.fontWeight = '700';
   }
   render() {
 
     return (
-      <div style={{ display: 'flex', flexDirection: 'column' }} >
-        <div></div>
-        <div className='imgwrapper' data-aos="fade-in"
-          data-aos-delay="50"
-          data-aos-duration="700"
+      <div>
+        <div style={{ display: 'flex', flexDirection: 'column' }} >
+          <div></div>
+          <div className='imgwrapper' data-aos="fade-in"
+            data-aos-delay="50"
+            data-aos-duration="700"
 
-          data-aos-once="false"
-        >
-          &nbsp;
-
+            data-aos-once="false"
+          >
+            &nbsp;
+  
           <div className='text'>
-            <h1 align='center' style={{ marginBottom: '25px', textAlign: 'center', whiteSpace: 'pre-wrap', fontFamily: 'proxima-nova' }}
-            >Liana's<br /> Portofolio.</h1>
+              <h1 align='center' style={{ marginBottom: '25px', textAlign: 'center', whiteSpace: 'pre-wrap', fontFamily: 'proxima-nova' }}
+              >Liana's<br /> Portofolio.</h1>
+
+            </div>
 
           </div>
-
-        </div>
-        {/*
+          {/*
         <div className='subWrapper'>
           <h1 align='center' style={{ marginBottom: '25px', textAlign: 'center', whiteSpace: 'pre-wrap', fontFamily: 'proxima-nova' }}>These are some of my projects</h1>
         </div> */}
-        <div className='mainWrapper' id='animation1'>
-          <div data-aos="slide-down"
-            data-aos-delay="200"
-            data-aos-duration="2000">
-            <h1 align='center' style={{ marginBottom: '25px', textAlign: 'center', whiteSpace: 'pre-wrap', fontFamily: 'proxima-nova' }}>Here are some of my projects</h1>
-          </div>
-          <div className='imgwrapper1'>
-            {
-              hardcodedData.map((elemnet, index) => {
-                return <OneWork key={index} data={elemnet} index={index} />
-              })
-            }
+          <div className='mainWrapper' id='animation1'>
+            <div data-aos="slide-down"
+              data-aos-delay="200"
+              data-aos-duration="2000">
+              <h1 align='center' style={{ marginBottom: '25px', textAlign: 'center', whiteSpace: 'pre-wrap', fontFamily: 'proxima-nova' }}>Here are some of my projects</h1>
+            </div>
+            <div className='imgwrapper1'>
+              {
+                hardcodedData.map((elemnet, index) => {
+                  return <OneWork key={index} data={elemnet} index={index} />
+                })
+              }
+            </div>
           </div>
         </div>
+        <Footer />
       </div>
     )
   }
