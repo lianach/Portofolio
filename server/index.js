@@ -2,18 +2,21 @@ const express = require('express')
 const morgan = require('morgan')
 const path = require('path')
 const app = express()
+const compression = require('compression')
 module.exports = app
 const PORT = 8100;
 
-
-
 const createApp = () => {
+
   app.use(morgan('dev'))
+
   app.use(express.json())
   app.use(express.urlencoded({ extended: true }))
+
+  app.use(compression())
+
   app.use(express.static(path.join(__dirname, '..', 'public')))
 
-  // any remaining requests with an extension (.js, .css, etc.) send 404
   app.use((req, res, next) => {
     if (path.extname(req.path).length) {
       const err = new Error('Not found')
@@ -24,11 +27,10 @@ const createApp = () => {
     }
   })
 
-  // sends index.html
-  app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, '..', 'public', 'index.html'));
-  });
-  // error handling endware
+  app.use('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '..', 'public/index.html'))
+  })
+
   app.use((err, req, res, next) => {
     console.error(err)
     console.error(err.stack)
@@ -37,17 +39,18 @@ const createApp = () => {
 }
 
 const startListening = () => {
-  app.listen(process.env.PORT || PORT, () =>
-    console.log(`Mixing it up on port ${PORT}!!!`)
+  const server = app.listen(PORT, () =>
+    console.log(`Mixing it up on port ${PORT}`)
   )
-
 }
+
+
+
 async function bootApp() {
-  // await sessionStore.sync()
-  // await syncDb()
   await createApp()
   await startListening()
 }
+
 if (require.main === module) {
   bootApp()
 } else {
