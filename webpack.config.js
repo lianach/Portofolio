@@ -2,7 +2,10 @@ const isDev = process.env.NODE_ENV === 'development'
 var path = require('path');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 module.exports = {
-  entry: './src/index.js',
+  entry: [
+    './src/index.js',
+    '@babel/polyfill'
+  ],
   mode: isDev ? 'development' : 'production',
   module: {
     rules: [
