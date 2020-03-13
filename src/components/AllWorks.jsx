@@ -9,7 +9,7 @@ const hardcodedData = [
     description: `Mushroom market is an e-commerce website that sells groceries and bundles in the form of editable recipes.
     Created using Node, PostgreSQL and Express for back-end and React and  Redux for the front-end, written in JavaScript.`,
     websiteLink: `https://graceshopper2020mushroom.herokuapp.com/home`,
-    githubLink: `https://graceshopper2020mushroom.herokuapp.com/home`,
+    githubLink: `https://github.com/1911-GH-mushrooms/GraceShopper`,
     imgSrc: 'muhroom.jpg'
   },
   {

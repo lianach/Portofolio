@@ -11,7 +11,7 @@ const hardcodedData = {
     On this website, you can buy groceries and recipes either with you own account or as a guest and you can customize your recipe bundle the way you want to. After choosing what products, you go to your cart and then checkout, the same way you would do on an e-commerce website.`,
     stack: `Created using Node, PostgreSQL and Express for back-end and React and  Redux for the front-end, written in JavaScript`,
     websiteLink: `https://graceshopper2020mushroom.herokuapp.com/home`,
-    githubLink: `https://graceshopper2020mushroom.herokuapp.com/home`,
+    githubLink: `https://github.com/1911-GH-mushrooms/GraceShopper`,
     imgSrc: 'muhroom.jpg'
   },
   StudyBuddy: {
