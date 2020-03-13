@@ -2,6 +2,9 @@
   "name": "portofolio",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">= 7.0.0"
+  },
   "main": "./server/index.js",
   "dependencies": {
     "@babel/polyfill": "^7.8.7",
