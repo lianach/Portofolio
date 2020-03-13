@@ -53,9 +53,7 @@ class AllWorks extends Component {
 
           <div className='text'>
             <h1 align='center' style={{ marginBottom: '25px', textAlign: 'center', whiteSpace: 'pre-wrap', fontFamily: 'proxima-nova' }}
-
-
-            >Liana's Portofolio</h1>
+            >Liana's<br /> Portofolio.</h1>
 
           </div>
 
@@ -68,7 +66,7 @@ class AllWorks extends Component {
           <div data-aos="slide-down"
             data-aos-delay="200"
             data-aos-duration="2000">
-            <h1 align='center' style={{ marginBottom: '25px', textAlign: 'center', whiteSpace: 'pre-wrap', fontFamily: 'proxima-nova' }}>These are some of my projects</h1>
+            <h1 align='center' style={{ marginBottom: '25px', textAlign: 'center', whiteSpace: 'pre-wrap', fontFamily: 'proxima-nova' }}>Here are some of my projects</h1>
           </div>
           <div className='imgwrapper1'>
             {

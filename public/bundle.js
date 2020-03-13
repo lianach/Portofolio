@@ -3966,9 +3966,10 @@ var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../node_modules/cs
 var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ./project2.jpg */ "./src/project2.jpg");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap);"]);
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Bellota|Raleway&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-exports.push([module.i, "body {\n\n  font-family: 'Roboto', sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n .navcontent{\n  display: flex;\n  justify-content: space-between;\n  align-content: center;\n\n}\n\n.navbar-brand {\n margin:10\n}\n\nul li a, navbar-brand{\n  color:whitesmoke;\n  margin: 10;\n}\n.home{\n  display: flex;\n  justify-content: center;\n  align-content: center;\n  color: black;\n  font-weight: 300;\n   }\n  .main{\n    position: fixed;\n  width: 500px;\n  height: 200px;\n  top: 50%;\n  left: 50%;\n  margin-top: -150px; /* Negative half of height. */\n  margin-left: -250px;\n  }\n  .home button{\n    opacity: 0.9;\n    background-color: #6610f2;\n    padding: 6px;\n    border-radius: 8px;\n\n  }\n  .home h3{\n    padding: 5px;\n    font-weight: 300;\n    }\n\n    .box{\n      float: center;\n      opacity: 0.9;\n      background-color: #6610f2;\n      padding: 6px;\n      border-radius: 8px;\n      width: 50%;\n    }\n.imgwrapper{\n\n  width: 100%;\n  height: 70rem;\n  margin: 0;\n  padding: 0;\n  top: 0;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background: linear-gradient(\n                     rgba(12, 12, 12, 0.5),\n                     rgba(7, 7, 7, 0.5)),\n                     url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size:100% 100%;\n  background-attachment: fixed ;\n  background-position: cover;\n  background-repeat: no-repeat;\n  background-size: cover;\n\n}\n\n.mainWrapper{\n  display: flex;\n  flex-direction: column;\n  justify-content: space-evenly;\n  flex-wrap: nowrap;\n  padding:  20vh 6vw;\n  align-content: center;\n  background-color:#fcfcfc;\n}\n.subWrapper{\n  display: flex;\n  flex-direction: column;\n  justify-content: space-evenly;\n  flex-wrap: nowrap;\n  padding:  20vh 6vw;\n  align-content: center;\n  background-color:#d0ebf0;\n}\n.imgwrapper1{\n  display: flex;\n  flex-direction: row;\n  justify-content: space-evenly;\n  flex-wrap:  nowrap;\n  align-content: center;\n}\n\n/* .indexPage{\n  background-color: ;\n} */\n.text {\n  color: whitesmoke;\n  font-family: 'proxima-nova';\n  font-size: 40px;\n  font-weight: 400;\n  position: absolute;\n  top:40%;\n  left: 40%;\n  z-index: 2;\n  transform: translate(-40% -40%);\n}\n\n@media screen and (max-width: 1550px) {\n  .imgwrapper {\n    height: 60rem;\n  }\n\n}\n@media screen and (max-width: 1330px) {\n  .imgwrapper {\n    height: 50rem;\n  }\n\n}\n@media screen and (max-width: 1024px) {\n  .imgwrapper {\n    height:40rem;\n    width:auto;\n\n  }\n  .imgwrapper1{\n    flex-wrap:  wrap;\n  }\n  .text{\n    left: 35%;\n  }\n}\n@media screen and (max-width: 700px) {\n  .imgwrapper {\n    height: 33rem;\n\n  }\n  .text{\n    left: 28%;\n  }\n}\n@media screen and (max-width: 500px) {\n  .imgwrapper {\n    height: 23rem;\nwidth: 400px;\n  }\n  .text{\n    left: 15%;\n  }\n\n}\n@media screen and (max-width: 380px) {\n  .imgwrapper {\n    height: 18rem;\n\n  }\n\n}\n.navbar-trans {\n  background: transparent;\n  position: fixed;\n  right:0;\n  left:0; }\n\n  a.nav-link {\n    color: black; }\n    #animation1 {\n      margin-top: 25px;\n      font-size: 21px;\n      text-align: center;\n\n      -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */\n         -moz-animation: fadein 2s; /* Firefox < 16 */\n          -ms-animation: fadein 2s; /* Internet Explorer */\n           -o-animation: fadein 2s; /* Opera < 12.1 */\n              animation: fadein 2s;\n  }\n  @keyframes fadein {\n    from { opacity: 0; }\n    to   { opacity: 1; }\n}\n\n/* Firefox < 16 */\n@-moz-keyframes fadein {\n    from { opacity: 0; }\n    to   { opacity: 1; }\n}\n\n/* Safari, Chrome and Opera > 12.1 */\n@-webkit-keyframes fadein {\n    from { opacity: 0; }\n    to   { opacity: 1; }\n}\n\n/* Internet Explorer */\n@-ms-keyframes fadein {\n    from { opacity: 0; }\n    to   { opacity: 1; }\n}\n\n/* Opera < 12.1 */\n@-o-keyframes fadein {\n    from { opacity: 0; }\n    to   { opacity: 1; }\n}\n.revealOnScroll { opacity: 0; }\n", ""]);
+exports.push([module.i, "body {\n\n  font-family: 'Roboto', sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n .navcontent{\n  display: flex;\n  justify-content: space-between;\n  align-content: center;\n\n}\n\n.navbar-brand {\n margin:10\n}\n\nul li a, navbar-brand{\n  color:whitesmoke;\n  margin: 10;\n}\n.home{\n  display: flex;\n  justify-content: center;\n  align-content: center;\n  color: black;\n  font-weight: 300;\n   }\n  .main{\n    position: fixed;\n  width: 500px;\n  height: 200px;\n  top: 50%;\n  left: 50%;\n  margin-top: -150px; /* Negative half of height. */\n  margin-left: -250px;\n  }\n  .home button{\n    opacity: 0.9;\n    background-color: #6610f2;\n    padding: 6px;\n    border-radius: 8px;\n\n  }\n  .home h3{\n    padding: 5px;\n    font-weight: 300;\n    }\n\n    .box{\n      float: center;\n      opacity: 0.9;\n      background-color: #6610f2;\n      padding: 6px;\n      border-radius: 8px;\n      width: 50%;\n    }\n.imgwrapper{\n\n  width: 100%;\n  height: 70rem;\n  margin: 0;\n  padding: 0;\n  top: 0;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background: linear-gradient(\n                     rgba(12, 12, 12, 0.5),\n                     rgba(7, 7, 7, 0.5)),\n                     url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size:100% 100%;\n  background-attachment: fixed ;\n  background-position: cover;\n  background-repeat: no-repeat;\n  background-size: cover;\n\n}\n\n.mainWrapper{\n  display: flex;\n  flex-direction: column;\n  justify-content: space-evenly;\n  flex-wrap: nowrap;\n  padding:  20vh 6vw;\n  align-content: center;\n  background-color:#fcfcfc;\n}\n.subWrapper{\n  display: flex;\n  flex-direction: column;\n  justify-content: space-evenly;\n  flex-wrap: nowrap;\n  padding:  20vh 6vw;\n  align-content: center;\n  background-color:#d0ebf0;\n}\n.imgwrapper1{\n  display: flex;\n  flex-direction: row;\n  justify-content: space-evenly;\n  flex-wrap:  nowrap;\n  align-content: center;\n}\n\n/* .indexPage{\n  background-color: ;\n} */\n.text {\n  color: whitesmoke;\n  font-family: 'proxima-nova';\n  font-size: 40px;\n  font-weight: 400;\n  position: absolute;\n  z-index: 2;\n  transform: translate(-40% -40%);\n  padding: 20vh 6vw;\n  top:13%;\n  left:5%;\n\n}\n.text h1{\n  font-size: 120px;\n  font-weight: 600;\n}\n\n\n\n.navbar-trans {\n  background: transparent;\n  position: absolute;\n  right:0;\n  left:0; }\n\n  a.nav-link {\n    color: black; }\n    .aboutWrapper{\n      padding:  20vh 15vw;\n  align-content: center;\n\n    }\n.about{\n  display: flex;\n  flex-wrap: nowrap;\n}\n.about div{\n  margin: 20px;\n}\n.img-fluid{\n\nwidth: 200rem;\ntop:80%;\n}\n.about .card{\nborder:none;\n\n}\n\n.about .card .card-body{\n  padding: 0;\n  white-space: pre-wrap;\n  font-family: 'Raleway', sans-serif;\n}\n\n\n@media screen and (max-width: 1550px) {\n  .imgwrapper {\n    height: 60rem;\n  }\n  .text h1{\n    font-size: 110px;\n  }\n\n}\n@media screen and (max-width: 1330px) {\n  .imgwrapper {\n    height: 50rem;\n  }\n  .text{\n    top:10%;\n  }\n  .text h1{\n    font-size: 100px;\n  }\n}\n@media screen and (max-width: 1024px) {\n  .imgwrapper {\n    height:40rem;\n    width:auto;\n\n  }\n  .imgwrapper1{\n    flex-wrap:  wrap;\n  }\n  .text{\n    top:5%;\n  }\n  .text h1{\n    font-size: 85px;\n  }\n  .about{\n    flex-wrap: wrap;\n  }\n}\n@media screen and (max-width: 700px) {\n  .imgwrapper {\n    height: 33rem;\n\n  }\n  .text{\n    top:1%;\n  }\n}\n@media screen and (max-width: 500px) {\n  .imgwrapper {\n    height: 23rem;\nwidth: 400px;\n  }\n  .text{\n    top:-7%;\n  }\n  .text h1{\n    font-size: 50px;\n  }\n}\n@media screen and (max-width: 380px) {\n  .imgwrapper {\n    height: 18rem;\n\n  }\n\n}\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -39681,6 +39682,96 @@ module.exports = exported;
 
 /***/ }),
 
+/***/ "./src/components/About.jsx":
+/*!**********************************!*\
+  !*** ./src/components/About.jsx ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+class About extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  componentDidMount() {
+    var body = document.getElementsByTagName('body')[0];
+    body.style.backgroundImage = 'none';
+  }
+
+  render() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "aboutWrapper"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "about"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "card info"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: "About.jpg",
+      className: "card-img-top img-fluid rounded float-left",
+      alt: "anout.jpg"
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "card-body"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      style: {
+        display: 'flex',
+        flexDirection: 'column'
+      }
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      style: {
+        display: 'flex',
+        justifyContent: 'space-around'
+      }
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "https://www.linkedin.com/in/andreea-liana-c-72273718b/"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+      className: "fab fa-linkedin fa-3x"
+    }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "https://github.com/lianach"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      style: {
+        color: 'black'
+      }
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+      className: "fab fa-github fa-3x"
+    }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "projects"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      style: {
+        color: 'black'
+      }
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+      className: "fa fa-file fa-3x"
+    }))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "card"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "card-body"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      className: "card-title",
+      style: {
+        color: 'rgb(170, 170, 170)'
+      }
+    }, "About"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I have always been passionate about technology ever since an early age. Always opening computers up and putting them back, playing games and trying to mod games. I didnt know what I wanted to become when i grew p for a long time up until my first coding class in my freshman year of high school. It was an eye opening experince that made me decide what kind of path I want to follow. I feel in love with coding and solving problems so much that I moved in Advanced Mathmatics and Computer Scince class the next year and stayed there up until the end of high school."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Over the course of my high school I trained a lot in problem solving and I got accepted in one of the most prestigious Computer Scince program in Romania at the Faculty of Computer Science of Iasi, which is part of the Alexandru Ion Cuza University of Iasi.During my time there, I volunteer for multiple associations the most notable being ASII(in Romanian `Asociatia Studentiilor Informaticieni Ieseni`) association, which is the Computer Science students association of Iasi. I got to be involved in multiple projects as Media Public Relations Coordinator that would promote making learning code more accesible for other students."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "After 2 years of attenting college in Romania I moved to the US and decided instead of continuing my education in an University enviorement I opted for attenting the Grace Hopper Program at the Fullstack Academy in New York."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "My experience at Fullstack Academy was one of a kind, a deligtful and eye opening experinece where I was able to grow so much and learn so many skills in an amazing and supporting enviorement. I got to create amazing projects with wonderful people that I am proud of using the skills I learned during my time at the Academy."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Now, after finishing the program I am on my way on becoming a Fullstack developer while working at the same time on some of my passion projects."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      className: "card-title",
+      style: {
+        color: 'rgb(170, 170, 170)'
+      }
+    }, "Let's conect"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "If you wish to talk to me directly you can find my at my email address", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      style: {
+        color: 'rgb(170, 170, 170)',
+        fontWeight: 600
+      }
+    }, " liana.andreea97@yahoo.com"), " or through my linked profile which is listed below my picture.")))));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (About);
+
+/***/ }),
+
 /***/ "./src/components/AllWorks.jsx":
 /*!*************************************!*\
   !*** ./src/components/AllWorks.jsx ***!
@@ -39750,7 +39841,7 @@ class AllWorks extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         whiteSpace: 'pre-wrap',
         fontFamily: 'proxima-nova'
       }
-    }, "Liana's Portofolio"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    }, "Liana's", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " Portofolio."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "mainWrapper",
       id: "animation1"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -39765,7 +39856,7 @@ class AllWorks extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         whiteSpace: 'pre-wrap',
         fontFamily: 'proxima-nova'
       }
-    }, "These are some of my projects")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    }, "Here are some of my projects")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "imgwrapper1"
     }, hardcodedData.map((elemnet, index) => {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_oneWork__WEBPACK_IMPORTED_MODULE_1__["OneWork"], {
@@ -39864,7 +39955,7 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       className: "nav-item"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
       className: "nav-link",
-      href: "/"
+      href: "/about"
     }, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
       className: "nav-item"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -39888,7 +39979,7 @@ class NavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 /*!*********************************!*\
   !*** ./src/components/index.js ***!
   \*********************************/
-/*! exports provided: HomePage, NavBar, AllWorks */
+/*! exports provided: HomePage, NavBar, AllWorks, About */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -39901,6 +39992,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony import */ var _AllWorks__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./AllWorks */ "./src/components/AllWorks.jsx");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "AllWorks", function() { return _AllWorks__WEBPACK_IMPORTED_MODULE_2__["default"]; });
+
+/* harmony import */ var _About__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./About */ "./src/components/About.jsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "About", function() { return _About__WEBPACK_IMPORTED_MODULE_3__["default"]; });
+
 
 
 
@@ -40102,6 +40197,9 @@ class Routes extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
       path: "/projects",
       component: _components__WEBPACK_IMPORTED_MODULE_3__["AllWorks"]
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+      path: "/about",
+      component: _components__WEBPACK_IMPORTED_MODULE_3__["About"]
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
       exact: true,
       path: "/",

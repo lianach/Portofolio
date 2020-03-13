@@ -12,7 +12,7 @@ class NavBar extends React.Component {
         <ul className="nav justify-content-end" id="pills-tab" role="tablist">
 
           <li className="nav-item">
-            <a className="nav-link" href="/">About</a>
+            <a className="nav-link" href="/about">About</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="/projects">Work</a>
