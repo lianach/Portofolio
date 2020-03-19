@@ -59,7 +59,7 @@ export default class SingleProjectPage extends React.Component {
         <div className='singleWorkWrapper'
           data-aos="fade-in"
           data-aos-delay="50"
-          data-aos-duration="300"
+          data-aos-duration="20000"
           data-aos-mirror="true"
           data-aos-once="false"
           data-aos-anchor-placement="top-center" >

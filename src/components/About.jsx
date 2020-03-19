@@ -60,8 +60,8 @@ class About extends React.Component {
                   My experience at Fullstack Academy was one of a kind, a delightful and eye opening experience where I was able to grow so much and learn so many skills in an amazing and supporting environment.
                   I got to create amazing projects with wonderful people that I am proud of using the skills I learned during my time at the Academy.
             </p>
-                <p>Now, after finishing the program I am on my way on becoming a Fullstack developer while working at the same time on some of my passion projects.</p>
-                <h3 className='card-title' style={{ color: 'rgb(170, 170, 170)' }}>Let's conect</h3>
+                <p>Now, after finishing the program I am on my way on becoming a great Software developer at Locai Solutions.</p>
+                <h3 className='card-title' style={{ color: 'rgb(170, 170, 170)' }}>Let's connect</h3>
                 <p>
                   If you wish to talk to me directly you can find my at my email address
                 <span style={{ color: 'rgb(170, 170, 170)', fontWeight: 600 }}> liana.andreea97@yahoo.com</span> or through my linked profile which is listed below my picture.
